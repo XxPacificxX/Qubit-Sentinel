@@ -1,4 +1,4 @@
-# Quantum AI Lab
+# Qubit Sentinel
 
 ![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-2a78d6)
 ![License: MIT](https://img.shields.io/badge/license-MIT-2a78d6)
@@ -27,8 +27,8 @@ Everything runs on a laptop CPU, through one command-line tool.
 ## Quick start
 
 ```bash
-git clone https://github.com/XxPacificxX/quantum-ai-lab.git
-cd quantum-ai-lab
+git clone https://github.com/XxPacificxX/qubit-sentinel.git
+cd qubit-sentinel
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -e ".[dev]"

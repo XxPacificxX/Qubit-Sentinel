@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "qailab"
 version = "0.1.0"
-description = "AI x quantum lab: neural QEC decoding, circuit noise prediction, and post-quantum crypto scanning"
+description = "Qubit Sentinel: neural QEC decoding, circuit noise prediction, and post-quantum crypto scanning"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE"]
@@ -30,7 +30,7 @@ plot = ["matplotlib"]
 dev = ["pytest"]
 
 [project.urls]
-Repository = "https://github.com/XxPacificxX/quantum-ai-lab"
+Repository = "https://github.com/XxPacificxX/qubit-sentinel"
 
 [project.scripts]
 qailab = "qailab.cli:main"

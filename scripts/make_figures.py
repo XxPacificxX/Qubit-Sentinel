@@ -168,7 +168,7 @@ def cover_figure(path: Path) -> None:
     plt.rcParams.update({"font.family": ["Segoe UI", "DejaVu Sans", "sans-serif"]})
     fig = plt.figure(figsize=(19.2, 10.8), dpi=100)
     fig.patch.set_facecolor("#0d0d0d")
-    fig.text(0.07, 0.80, "QUANTUM AI LAB", color=t["s1"], fontsize=30, fontweight="bold")
+    fig.text(0.07, 0.80, "QUBIT SENTINEL", color=t["s1"], fontsize=30, fontweight="bold")
     fig.text(0.07, 0.66, "Three AI experiments\nfor the quantum era", color=t["ink"], fontsize=64,
              fontweight="bold", va="top", linespacing=1.1)
     cards = [

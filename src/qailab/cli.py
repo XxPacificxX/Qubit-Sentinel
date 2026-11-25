@@ -46,7 +46,7 @@ def _scan(a) -> None:
 def _report(a) -> None:
     """Collect the latest results of all three tracks into one Markdown summary."""
     root = Path(a.results)
-    out = ["# Quantum AI Lab: results", ""]
+    out = ["# Qubit Sentinel: results", ""]
     qec = sorted((root / "qec").glob("*.json"), key=lambda p: p.stat().st_mtime)
     out += ["## 1. Neural decoder vs. PyMatching", ""]
     if qec:
@@ -86,7 +86,7 @@ def _report(a) -> None:
 
 
 def main(argv: list[str] | None = None) -> None:
-    ap = argparse.ArgumentParser(prog="qailab", description="Quantum AI Lab")
+    ap = argparse.ArgumentParser(prog="qailab", description="Qubit Sentinel")
     sub = ap.add_subparsers(dest="cmd", required=True)
 
     q = sub.add_parser("qec", help="train a neural surface-code decoder and benchmark it against PyMatching")

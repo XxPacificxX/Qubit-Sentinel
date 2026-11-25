@@ -1,4 +1,4 @@
-"""Quantum AI Lab: three tracks on computing in the quantum era.
+"""Qubit Sentinel: three tracks on computing in the quantum era.
 
 - ``qailab.qec``   - make quantum computers work: neural decoders for the surface code
 - ``qailab.noise`` - use them efficiently: predict a circuit's fidelity before running it
