@@ -30,7 +30,7 @@ plot = ["matplotlib"]
 dev = ["pytest"]
 
 [project.urls]
-Repository = "https://github.com/XxPacificxX/qubit-sentinel"
+Repository = "https://github.com/XxPacificxX/Qubit-Sentinel"
 
 [project.scripts]
 qailab = "qailab.cli:main"

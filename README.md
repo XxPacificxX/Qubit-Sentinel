@@ -27,8 +27,8 @@ Everything runs on a laptop CPU, through one command-line tool.
 ## Quick start
 
 ```bash
-git clone https://github.com/XxPacificxX/qubit-sentinel.git
-cd qubit-sentinel
+git clone https://github.com/XxPacificxX/Qubit-Sentinel.git
+cd Qubit-Sentinel
 python -m venv .venv
 # Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -e ".[dev]"
