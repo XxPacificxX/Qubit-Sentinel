@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools>=69"]
+requires = ["setuptools>=77"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,6 +7,11 @@ name = "qailab"
 version = "0.1.0"
 description = "AI x quantum lab: neural QEC decoding, circuit noise prediction, and post-quantum crypto scanning"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Michael Koppelmann" }]
+keywords = ["quantum computing", "quantum error correction", "surface code", "machine learning",
+            "post-quantum cryptography", "qiskit", "cbom"]
 requires-python = ">=3.10"
 dependencies = [
     "numpy",
@@ -21,7 +26,11 @@ dependencies = [
 [project.optional-dependencies]
 stim = ["stim"]
 llm = ["anthropic>=2.0"]
+plot = ["matplotlib"]
 dev = ["pytest"]
+
+[project.urls]
+Repository = "https://github.com/XxPacificxX/quantum-ai-lab"
 
 [project.scripts]
 qailab = "qailab.cli:main"
