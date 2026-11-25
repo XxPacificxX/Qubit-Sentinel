@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qailab"
+version = "0.1.0"
+description = "AI x quantum lab: neural QEC decoding, circuit noise prediction, and post-quantum crypto scanning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scikit-learn",
+    "pymatching>=2.2",
+    "torch",
+    "qiskit>=1.0",
+    "qiskit-aer",
+    "qiskit-ibm-runtime",
+]
+
+[project.optional-dependencies]
+stim = ["stim"]
+llm = ["anthropic>=2.0"]
+dev = ["pytest"]
+
+[project.scripts]
+qailab = "qailab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
